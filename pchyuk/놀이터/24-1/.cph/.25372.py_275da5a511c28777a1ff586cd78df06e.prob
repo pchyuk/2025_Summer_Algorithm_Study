@@ -1,0 +1,1 @@
+{"name":"Local: 25372","url":"/home/pchyuk/baekjoon/24-1/25372.py","tests":[{"id":1716992103736,"input":"3\n1245125\nasdij\n120318739721","output":"yes\nno\nno"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pchyuk/baekjoon/24-1/25372.py","group":"local","local":true}
