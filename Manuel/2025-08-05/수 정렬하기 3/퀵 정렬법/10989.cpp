@@ -71,7 +71,7 @@ int main()
     }
 
     chrono::duration<double, milli> duration = end_time - start_time;
-    cout << "\n실행 시간: " << fixed << setprecision(6) << duration.count() << endl;
+    cout << "\n실행 시간: " << fixed << setprecision(6) << duration.count() << "ms" << endl;
 
     return 0;
 }
