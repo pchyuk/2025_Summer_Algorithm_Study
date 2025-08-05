@@ -1,3 +1,5 @@
+//https://www.acmicpc.net/problem/3052
+
 #include <stdio.h>
 
 int main() {
