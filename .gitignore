@@ -1,2 +1,11 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+ 
+# Thumbnails
+._*
+
+# Compiled executables
 *.exe
-*.DS_Store
+*.out
