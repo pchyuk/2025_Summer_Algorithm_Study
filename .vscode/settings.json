@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "queue": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "vector": "cpp"
     }
 }
