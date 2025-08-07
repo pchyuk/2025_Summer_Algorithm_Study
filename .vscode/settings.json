@@ -2,6 +2,7 @@
     "files.associations": {
         "queue": "cpp",
         "iomanip": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "iostream": "cpp"
     }
 }
