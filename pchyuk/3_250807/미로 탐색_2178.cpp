@@ -2,7 +2,7 @@
 /* 풀이 과정 : (0,0)에서 시작하여 상하좌우를 찾고, 방문하지 않았고 유효한 값이면
 해당 위치의 좌표값을 1 올려준다. */
 /* 사용된 알고리즘 : 그래프 이론(BFS) */
-/* 링크 : https://www.acmicpc.net/problem/7576 */
+/* 링크 : https://www.acmicpc.net/problem/2178 */
 
 #include <iostream>
 #include <queue>
