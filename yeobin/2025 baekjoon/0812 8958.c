@@ -12,7 +12,7 @@ int main()
     int a[81]; // OX 문자열의 점수를 저장할 배열
     scanf("%d", &n); // 테스트 케이스의 개수 입력
 
-    for(int i=1; i<=n; i++){
+    for(int i=0; i<n; i++){
         scanf("%s", ox);
         
         int score = 0; // 총 점수
@@ -29,11 +29,7 @@ int main()
                 count = 0; // X가 나오면 연속 카운트 초기화
             }
         }
-        a[i] = score; // 각 테스트 케이스의 점수를 배열에 저장
-    }
-
-    for(int i=1; i<=n; i++){
-        printf("%d\n", a[i]); // 각 테스트 케이스의 점수 출력
+        printf("%d\n", score); // 최종 점수 출력
     }
 
     return 0;
