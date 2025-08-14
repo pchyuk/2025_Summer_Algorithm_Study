@@ -24,6 +24,7 @@ int main() {
     cin >> m;
     while (m--) {
         cin >> op;
+        
         if (op == "add") {
             cin >> x;
             if (!check(s, x)) s.push_back(x);
