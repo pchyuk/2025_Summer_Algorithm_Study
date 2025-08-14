@@ -9,7 +9,6 @@ int main()
 {
     int n; // 테스트 케이스의 개수
     char ox[81]; // OX 문자열을 저장할 배열
-    int a[81]; // OX 문자열의 점수를 저장할 배열
     scanf("%d", &n); // 테스트 케이스의 개수 입력
 
     for(int i=0; i<n; i++){
