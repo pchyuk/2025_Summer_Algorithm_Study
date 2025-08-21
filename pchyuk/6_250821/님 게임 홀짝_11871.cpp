@@ -11,7 +11,7 @@ int main(){
         else result ^= (p+1)/2;
     }
 
-    if(result = 0) cout << "cubelover\n";
+    if(result == 0) cout << "cubelover\n";
     else cout << "koosaga\n";
 
     return 0;
