@@ -1,7 +1,7 @@
 /* 나의 풀이 : 박찬혁 */
 /* 풀이 과정 : "XOR 연산" */
 /* 사용된 알고리즘 : 게임 이론, 스프라그–그런디 정리 */
-/* 링크 : https://www.acmicpc.net/problem/11898 */
+/* 링크 : https://www.acmicpc.net/problem/11868 */
 
 #include <iostream>
 using namespace std;
