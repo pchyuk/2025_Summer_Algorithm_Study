@@ -1,6 +1,4 @@
-
 #include<stdio.h>
-
 int transform(int m, int n) {
 	int temp;
 	temp = m;
@@ -12,7 +10,6 @@ int transform(int m, int n) {
 int gcb(int a, int b) {
 
 	while (b != 0) {
-		if (a < b) transform(a, b);
 		int temp = a % b;
 		a = b;
 		b = temp;
@@ -21,7 +18,6 @@ int gcb(int a, int b) {
 }
 
 int lcb(int c, int d) {
-	if (c < d) transform(c, d);
 	return (c * d) / gcb(c, d);
 }
 
@@ -30,6 +26,8 @@ int main() {
 	int x, y;
 
 	scanf("%d %d", &x, &y);
+
+	transform(x, y);
 
 	int result1 = gcb(x, y);
 	int result2 = lcb(x, y);
