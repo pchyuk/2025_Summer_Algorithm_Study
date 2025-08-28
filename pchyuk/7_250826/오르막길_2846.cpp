@@ -29,7 +29,6 @@ int main(){
         }
     }
     
-    if(min != v[n-1] && uphill < max - min) uphill = max - min;
     cout << uphill << "\n";
     return 0;
 }
