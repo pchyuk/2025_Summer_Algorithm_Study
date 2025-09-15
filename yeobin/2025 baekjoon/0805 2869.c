@@ -34,12 +34,12 @@ int main()
 int main()
 {  
   int a,b,v,d;
-  scanf("%d %d %d",&a,&b,&v);
+  scanf("%d %d %d", &a, &b, &v);
 
-  d = ( v - b - 1) / ( a - b) +1;
+  d = (v - b - 1) / (a - b) + 1;
   // 실질적으로 하루에 달팽이가 올라가는 높이는 A-B 이므로
   // (V - B - 1) / (A - B) + 1을 통해 필요한 날 수를 계산
-  
+
   printf("%d",d);
 
   return 0; 
