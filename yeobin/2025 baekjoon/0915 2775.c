@@ -9,6 +9,7 @@ int main()
 {
     int t, k, n;
     int floor[15][15] = {0};
+    
     for (int i = 1; i < 15; i++)
     {
         floor[0][i] = i;
